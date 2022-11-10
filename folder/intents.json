@@ -1,0 +1,37 @@
+{
+    "intents" : [
+        {"tag" : "greetings",
+            "patterns" : ["hello", "hey", "hi", "good day", "greetings", "what's up?", "how is it going?"],
+            "responses" : ["Hello","Hey!","What can i do for you?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns" : ["bye", "see you later", "GoodBoy", "I am leaving", "Have a good day","see ya"],
+            "responses" : ["have a nice day"]
+        },
+        {
+            "tag" : "age",
+            "patterns" : ["how old", "how old is florin", "what is your age", "How old are you ","age?"],
+            "responses": ["My owner florian is 21 years old!", "21 years!"]
+        },
+        {
+            "tag" : "name",
+            "patterns" : ["what is your name", "what should i call you", "whats your name?", "who are you","can you tell me"],
+            "responses": ["You can call me sana!", "I am sana", "I am Neural assistant of Florian!"]
+        },
+        {
+            "tag" : "shop",
+            "patterns" : ["I'd like to buy something", "What are your products?", "what do you recommend?", "What are your sellings"],
+            "responses": ["Neural has a seven part Python book series and a lot of free content on Youtube and the Blog", "21 years!"]
+        },
+        {
+            "tag" : "hours",
+            "patterns" : ["when are you guys open", "what are your hours", "Hours of operation"],
+            "responses": ["24/7"]
+        },
+        {
+            "tag" : "stocks",
+            "patterns" : ["what stocks do i own?", "how are my shares?", "what companies am I investing in?", "What i am doing"],
+            "responses": ["You own the following shares"]
+        }
+]}
